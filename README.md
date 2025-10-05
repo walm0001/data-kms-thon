@@ -1,2 +1,4 @@
-# data-kms-thon
-Datathon Lifeline submission for TM-75
+# TM-75
+Adib Hairie bin Noorazman
+Sim Hng Kang
+Walmond Reineli
