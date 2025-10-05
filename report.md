@@ -3,7 +3,7 @@
 The final model is an XGBoost classifier optimized to analyze cardiotocography (CTG) recordings for the early detection of fetal distress. XGBoost employs a boosting technique, meaning it builds decision trees sequentially rather than in parallel. Each new tree is trained to correct the errors made by the previous ones, allowing the model to progressively improve its predictions. It optimises an objective function using gradient descent with a softmax output layer, which enables effective multi-class classification — hence the term “gradient boosting.”
 ## Scoring
 The following is the evaluation of the model with the current train-test split:
-![](https://github.com/walm0001/data-kms-thon/blob/main/misc/Screenshot%202025-10-05%20234136.png)
+![](https://github.com/walm0001/data-kms-thon/blob/main/misc/Screenshot%202025-10-05%20234349.png)
 
 The model has also determined the following feature importances based on the gain for each feature:
 ![](https://github.com/walm0001/data-kms-thon/blob/main/misc/Picture2.png)
