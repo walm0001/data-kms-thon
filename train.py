@@ -8,6 +8,7 @@ from scipy.stats import randint, uniform
 # import CSV as datafile, including NSP labels
 df = pd.read_csv('CTGdata.csv')
 
+# use this function to clean data, execute below
 def clean_data(df):
     # Create a copy of the dataframe to avoid modifying the original
     result_df = df.copy()
